@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <title>World of Wrecks</title>
@@ -11,6 +11,48 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+
+  <!-- Navbar -->
+  <nav class="navbar has-background-info-dark" role="navigation" aria-label="main navigation">
+    <div class="container is-fullhd">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-white" href="index.html">
+          <strong class="">World of Wrecks</strong>
+        </a>
+        
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Map
+          </a>
+          
+          <a class="navbar-item" href="about.html">
+            About
+          </a>
+          
+        </div>
+        
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">
+                <strong>Contribute</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <!-- Filter Section -->
   <div class="filters">
     <label for="country">Country:</label><br>
@@ -29,7 +71,24 @@
   </div>
 
   <!-- Map -->
-  <div id="map"></div>
+  <section class="hero">
+    <div id="map"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer mt-5">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="https://opensource.org/license/mit">MIT</a>. The
+        website content is licensed
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0//"
+          >CC BY NC SA 4.0</a
+        >.
+      </p>
+    </div>
+  </footer>
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
