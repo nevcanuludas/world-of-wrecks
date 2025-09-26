@@ -23,8 +23,8 @@ fetch("data/wrecks.json")
         .filter(w => (!countryFilter || w.country === countryFilter) &&
                      (!typeFilter || w.type === typeFilter))
         .forEach(w => {
-          const marker = L.marker([w.lat, w.lng]).addTo(map);
-          marker.bindPopup(`<b>${w.name}</b><br>${w.country}<br><a href="wreck.html?id=${w.id}">Details</a>`);
+          const marker = L.marker([w.latitude, w.longitude]).addTo(map);
+          marker.bindPopup(`<b>${w.name}</b><br><a href="wreck.html?id=${w.id}">View Details</a>`);
           markers.push(marker);
         });
     }

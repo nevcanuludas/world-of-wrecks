@@ -1,22 +1,101 @@
 [
   {
-    "id": 1,
-    "name": "SS Thistlegorm",
-    "country": "Egypt",
-    "type": "Shipwreck",
-    "status": "Documented",
-    "lat": 27.812,
-    "lng": 33.921,
-    "description": "A famous WWII wreck in the Red Sea."
+    "id": 3,
+    "country": "PL",
+    "type": "freighter",
+    "name": "Agnes",
+    "latitude": 55.2333,
+    "longitude": 18.2,
+    "info": "Steamer named 'Angol' / Steamer AGNES",
+    "description_pl": "AGNES (ex. BLAIRLOGIE, ex. OOSTDIJK) was a freight ship with mechanical drive. Built in 1912 in Rotterdam by 'Rotterdam Droogdok Maats' for 'Solleveld van der Meer of Rotterdam'. Finished in February, named 'OOSTDIJK'. Requisitioned by the U.S. in 1918 and operated by the U.S. Shipping Board. Returned to owner in 1919. Bought by Clydesdale Navigation Co. Ltd in 1922 and named 'BLAIRLOGIE'. Bought by Mariehamns Rederi AB, Finland in 1936 and named 'AGNES'. Confiscated by Germans in 1940. Torpedoed and sunk by Soviet submarine SC-406 on 01.11.1942 at approx. 19:15 GMT at the given position.",
+    "description_en": "Name: AGNES. Position: 55°14' N, 018°12' E. History of duty: AGNES (ex. BLAIRLOGIE, ex. OOSTDIJK). Freight ship with mechanical drive. Built in 1912 in Rotterdam. Requisitioned by the US in 1918. Returned to owner in 1919. Bought by Clydesdale Navigation in 1922, named 'BLAIRLOGIE'. Bought by Mariehamns Rederi AB, Finland in 1936 and named 'AGNES'. Confiscated by Germans in 1940. Torpedoed and sunk in 1942 by Soviet submarine SC-406.",
+    "length": "",
+    "width": "",
+    "draft": "",
+    "displacement": "",
+    "propulsion": "",
+    "armament": "",
+    "wreck_depth": "65 m",
+    "seabed_depth": "",
+    "pictures": [
+      "agnes300.jpg",
+      "blairlogie.jpg"
+    ],
+    "language": "pl",
+    "status": 1,
+    "geo_latitude": {
+      "deg": 55,
+      "min": 14,
+      "sec": 0
+    },
+    "geo_longitude": {
+      "deg": 18,
+      "min": 12,
+      "sec": 0
+    }
   },
   {
-    "id": 2,
-    "name": "Dakota Wreck",
-    "country": "Turkey",
-    "type": "Aircraft",
-    "status": "Ongoing Project",
-    "lat": 36.202,
-    "lng": 29.637,
-    "description": "Douglas Dakota wreck near Kaş."
+    "id": 4,
+    "country": "PL",
+    "type": "tug",
+    "name": "Arngast",
+    "latitude": 54.8778,
+    "longitude": 17.9717,
+    "info": "Steam tug boat",
+    "description": "S/TG ARNGAST, steam tugboat built in 1908 at Eiderwerft AG, Tonningen. Used in Kaiserliche Werft Wilhelmshaven, and from 1920 for Reichswerft Wilhelmshaven. Sank in 1921 during a cruise from Wilhelmshaven to Danzig during a snowstorm.",
+    "description_en": "Name: ARNGAST. Position: 54°52'40.90\" N, 017°58'18.60\" E. History of duty: Steam tugboat, built in 1908 at Eiderwerft AG., Tonningen. Used in Kaiserliche Werft Wilhelmshaven and for Reichswerft Wilhelmshaven from 1920. Sank in 1921 during cruise from Wilhelmshaven to Danzig during a snowstorm.",
+    "length": "",
+    "width": "",
+    "draft": "",
+    "displacement": "",
+    "propulsion": "One steam machine of threefold compression",
+    "armament": "None",
+    "wreck_depth": "22 m",
+    "seabed_depth": "",
+    "pictures": [],
+    "language": "pl",
+    "status": 1,
+    "geo_latitude": {
+      "deg": 54,
+      "min": 52,
+      "sec": 40
+    },
+    "geo_longitude": {
+      "deg": 17,
+      "min": 58,
+      "sec": 18
+    }
+  },
+  {
+    "id": 6,
+    "country": "PL",
+    "type": "tanker",
+    "name": "Burgmeister Petersen",
+    "latitude": 54.791389,
+    "longitude": 18.642222,
+    "info": "tankowiec / oil carrier",
+    "description_pl": "S/T BURGERMEISTER PETERSEN, Tankowiec. Zbiornikowiec o napędzie mechanicznym, napędzany maszyną parową. Jedna śruba czteropłatkowa o stałym skoku. Załoga 34 osoby. Konstrukcja dwupokładowa. Zbudowany w sierpniu 1889 roku dla armatora Siemers w stoczni Sir W. G. Armstrong, Mitchell & Co, Low Walker, numer planów 553. Oddany do użytku 17.09.1889. Od 27.05.1891 pływał dla D.A.P.G. Od 19.09.1914 służył jako statek pomocniczy dla Ubootów (tankowiec). 10.11.1915 wszedł na minę i zatonął. Zginęło 20 członków załogi.",
+    "description_en": "S/T BURGERMEISTER PETERSEN, Tanker with mechanical drive. Driven with steam machine. One four blade screw with regular stroke. Crew 34 persons. Two-deck construction. Built in August 1889 for shipowner Siemers, in shipyard Sir W. G. Armstrong, Mitchell & Co, Low Walker, plan number 553. Delivered 17.09.1889. From 27.05.1891 served D.A.P.G. From 19.09.1914 served as auxiliary ship for Uboots (used as oiler). On 10.11.1915 destroyed by mine and sunk. 20 crew members died. Shipowner Siemers, DAPG, service in navy.",
+    "length": "",
+    "width": "",
+    "draft": "",
+    "displacement": "",
+    "engine": "",
+    "armament": "",
+    "wreck_depth": "31 m",
+    "surface_depth": "",
+    "pictures": ["petersen.jpg::BURGERMEISTER PETERSEN::"],
+    "language": "pl",
+    "status": 1,
+    "geo_latitude": {
+      "deg": 54,
+      "min": 47,
+      "sec": 29
+    },
+    "geo_longitude": {
+      "deg": 18,
+      "min": 38,
+      "sec": 32
+    }
   }
 ]

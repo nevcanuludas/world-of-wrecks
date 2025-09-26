@@ -91,13 +91,36 @@
           return;
         }
 
+        const description = wreck.language === "en" ? wreck.description_en : wreck.description_pl;
+
+        let specsHtml = "";
+        if (wreck.length) specsHtml += `<p><span class="label">Length:</span> ${wreck.length}</p>`;
+        if (wreck.width) specsHtml += `<p><span class="label">Width:</span> ${wreck.width}</p>`;
+        if (wreck.draft) specsHtml += `<p><span class="label">Draft:</span> ${wreck.draft}</p>`;
+        if (wreck.displacement) specsHtml += `<p><span class="label">Displacement:</span> ${wreck.displacement}</p>`;
+        if (wreck.propulsion) specsHtml += `<p><span class="label">Propulsion:</span> ${wreck.propulsion}</p>`;
+        if (wreck.armament) specsHtml += `<p><span class="label">Armament:</span> ${wreck.armament}</p>`;
+        if (wreck.wreck_depth) specsHtml += `<p><span class="label">Wreck Depth:</span> ${wreck.wreck_depth}</p>`;
+        if (wreck.seabed_depth) specsHtml += `<p><span class="label">Seabed Depth:</span> ${wreck.seabed_depth}</p>`;
+
+        let picturesHtml = "";
+        if (wreck.pictures && wreck.pictures.length > 0) {
+          picturesHtml = '<div class="image-gallery">';
+          wreck.pictures.forEach(pic => {
+            picturesHtml += `<figure class="image is-128x128 mr-2 mb-2" style="display:inline-block;"><img src="${pic}" alt="Wreck picture"></figure>`;
+          });
+          picturesHtml += '</div>';
+        }
+
         container.innerHTML = `
-          <h1>${wreck.name}</h1>
+          <h1 class="title">${wreck.name}</h1>
           <p><span class="label">Country:</span> ${wreck.country}</p>
           <p><span class="label">Type:</span> ${wreck.type}</p>
           <p><span class="label">Status:</span> ${wreck.status}</p>
-          <p><span class="label">Coordinates:</span> ${wreck.lat}, ${wreck.lng}</p>
-          <p><span class="label">Description:</span><br>${wreck.description}</p>
+          <p><span class="label">Coordinates:</span> ${wreck.latitude}, ${wreck.longitude}</p>
+          ${specsHtml}
+          <p><span class="label">Description:</span>${description}</p>
+          ${picturesHtml}
         `;
       })
       .catch(error => {
