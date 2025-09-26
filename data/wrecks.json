@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "SS Thistlegorm",
+    "country": "Egypt",
+    "type": "Shipwreck",
+    "status": "Documented",
+    "lat": 27.812,
+    "lng": 33.921,
+    "description": "A famous WWII wreck in the Red Sea."
+  },
+  {
+    "id": 2,
+    "name": "Dakota Wreck",
+    "country": "Turkey",
+    "type": "Aircraft",
+    "status": "Ongoing Project",
+    "lat": 36.202,
+    "lng": 29.637,
+    "description": "Douglas Dakota wreck near Kaş."
+  }
+]

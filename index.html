@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World of Wrecks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nevcan Uludaş">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <!-- Filter Section -->
+  <div class="filters">
+    <label for="country">Country:</label><br>
+    <select id="country">
+      <option value="">All</option>
+      <option value="Egypt">Egypt</option>
+      <option value="Turkey">Turkey</option>
+    </select><br>
+
+    <label for="type">Type:</label><br>
+    <select id="type">
+      <option value="">All</option>
+      <option value="Shipwreck">Shipwreck</option>
+      <option value="Aircraft">Aircraft</option>
+    </select>
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
