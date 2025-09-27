@@ -2,7 +2,7 @@
   {
     "id": 3,
     "country": "PL",
-    "type": "freighter",
+    "type": "Freighter",
     "name": "Agnes",
     "latitude": 55.2333,
     "longitude": 18.2,
@@ -37,7 +37,7 @@
   {
     "id": 4,
     "country": "PL",
-    "type": "tug",
+    "type": "Tug",
     "name": "Arngast",
     "latitude": 54.8778,
     "longitude": 17.9717,
@@ -69,7 +69,7 @@
   {
     "id": 6,
     "country": "PL",
-    "type": "tanker",
+    "type": "Tanker",
     "name": "Burgmeister Petersen",
     "latitude": 54.791389,
     "longitude": 18.642222,

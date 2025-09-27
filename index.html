@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./styles/bulma.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  
 </head>
 <body>
 
@@ -54,21 +56,36 @@
   </nav>
 
   <!-- Filter Section -->
-  <div class="filters">
-    <label for="country">Country:</label><br>
-    <select id="country">
-      <option value="">All</option>
-      <option value="Egypt">Egypt</option>
-      <option value="Turkey">Turkey</option>
-    </select><br>
-
-    <label for="type">Type:</label><br>
-    <select id="type">
-      <option value="">All</option>
-      <option value="Shipwreck">Shipwreck</option>
-      <option value="Aircraft">Aircraft</option>
-    </select>
-  </div>
+  <section class="section has-background-info-light py-3">
+    <div class="container is-fullhd">
+      <div class="control has-icons-left is-inline">
+        <div class="select is-small">
+          <select id="country">
+            <option value="" selected>Country</option>
+            <option value="PL">Poland</option>
+          </select>
+        </div>
+        <div class="icon is-small is-left">
+          <i class="fa-solid fa-globe"></i>
+        </div>
+      </div>
+      <div class="control has-icons-left is-inline ml-2">
+        <div class="select is-small">
+          <select id="type">
+            <option value="" selected>Type</option>
+            <option value="Aircraft">Aircraft</option>
+            <option value="Freighter">Freighter</option>
+            <option value="Shipwreck">Shipwreck</option>
+            <option value="Tanker">Tanker</option>
+            <option value="Tug">Tug</option>
+          </select>
+        </div>
+        <div class="icon is-small is-left">
+          <i class="fa-solid fa-anchor"></i>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Map -->
   <section class="hero">
