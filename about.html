@@ -32,8 +32,8 @@
       
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item active" href="index.html">Map</a>
-          <a class="navbar-item" href="about.html">About</a>
+          <a class="navbar-item" href="index.html">Map</a>
+          <a class="navbar-item active" href="about.html">About</a>
         </div>
         
         <div class="navbar-end">
@@ -49,41 +49,46 @@
     </div>
   </nav>
 
-  <!-- Filter Section -->
-  <section class="section has-background-info-light py-3">
-    <div class="container is-fullhd">
-      <div class="control has-icons-left is-inline">
-        <div class="select is-small">
-          <select id="country">
-            <option value="" selected>Country</option>
-            <option value="PL">Poland</option>
-          </select>
-        </div>
-        <div class="icon is-small is-left">
-          <i class="fa-solid fa-globe"></i>
-        </div>
-      </div>
-      <div class="control has-icons-left is-inline ml-2">
-        <div class="select is-small">
-          <select id="type">
-            <option value="" selected>Type</option>
-            <option value="Aircraft">Aircraft</option>
-            <option value="Freighter">Freighter</option>
-            <option value="Shipwreck">Shipwreck</option>
-            <option value="Tanker">Tanker</option>
-            <option value="Tug">Tug</option>
-          </select>
-        </div>
-        <div class="icon is-small is-left">
-          <i class="fa-solid fa-anchor"></i>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- About Section -->
+  <section class="about my-5">
+    <div class="container">
+      <h1 class="title">About World of Wrecks</h1>
+      <p class="subtitle mt-3">
+        World of Wrecks is a collaborative project dedicated to documenting, mapping, and sharing information about underwater wrecks from all around the world. Our mission is to make maritime history and underwater cultural heritage accessible to everyone through interactive maps and detailed wreck profiles.
+      </p>
 
-  <!-- Map -->
-  <section class="hero">
-    <div id="map"></div>
+      <hr>
+
+      <h2 class="title is-4">Our Team</h2>
+      <div class="columns">
+
+        <div class="column">
+          <div class="box has-background-success">
+            <h3 class="title is-5">Bartek Trzcinski</h3>
+            <p><strong>Project Contributor</strong></p>
+            <p>Bartek supports the project with data collection, research, and wreck documentation in Polish waters.</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="box has-background-info-dark has-text-white">
+            <h3 class="title is-5 has-text-white">Sebastian Popek</h3>
+            <p><strong class="has-text-white">Project Contributor</strong></p>
+            <p>Sebastian contributes to the project by researching and curating information about wrecks from Poland and nearby regions.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="box has-background-info">
+            <h3 class="title is-5">Nevcan Uludaş</h3>
+            <p><strong>Lead Developer & Project Contributor</strong></p>
+            <p>Nevcan focuses on the development of the platform and contributes research and data related to wrecks in Türkiye.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
   </section>
 
   <!-- Footer -->
